@@ -1,0 +1,23 @@
+body {
+  background-image: url("./assets/projet_pier.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 1vw;
+  color: black;
+  text-decoration: none;
+  font-family: Roboto serif;
+}
+
+@media (max-width: 768.98px){
+  body {
+    background-image: none;
+  }
+}

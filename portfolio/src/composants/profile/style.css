@@ -1,0 +1,35 @@
+.profile {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+section {
+    width: 50%;
+}
+
+.profilepicture {
+    display: flex;
+    justify-content: center;
+    transform: scale(35%);
+}
+
+.competences{
+    font-size: 25px;
+    display: flex;
+    flex-direction: row;
+}
+.ico, .legend {
+    display: flex;
+    flex-direction: column;
+}
+
+.ico *, .legend *{
+    margin: 20px 10px;
+}
+
+.ico{
+    align-items: center;
+}

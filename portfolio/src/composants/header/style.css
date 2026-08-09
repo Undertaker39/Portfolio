@@ -1,0 +1,11 @@
+header {
+    width: 100%;
+}
+
+h1 {
+    margin: 1vh 1vw;
+    font-size: 3vw;
+    align-items: start;
+    color: white;
+    font-weight: 500;
+}
