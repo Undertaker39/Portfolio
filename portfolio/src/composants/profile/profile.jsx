@@ -8,18 +8,24 @@ function Profile() {
                 <img src={profilepicture}/>
             </section>
             <section className='competences'>
-                <div className='ico'>
-                    <i class="fa-solid fa-laptop-code"></i>
-                    <i class="fa-brands fa-html5"></i>
-                    <i class="fa-brands fa-css3"></i>
-                    <i class="fa-brands fa-square-js"></i>
-                    <i class="fa-brands fa-react"></i>
-                </div>
-                <div className='legend'>
+                <div className='code'>
+                    <i className="fa-solid fa-laptop-code"></i>
                     <p>Developpeur front-end</p>
-                    <p>Html</p>
-                    <p>Css : Sass : Scss</p>
+                </div>
+                <div className='html'>
+                    <i className="fa-brands fa-html5"></i>
+                    <p>Html</p>                  
+                </div>
+                <div className='css'>
+                    <i className="fa-brands fa-css3"></i>
+                    <p>Css : Sass : Scss</p>                  
+                </div>
+                <div className='js'>
+                    <i className="fa-brands fa-square-js"></i>
                     <p>Javascript</p>
+                </div>
+                <div className='react'>
+                    <i className="fa-brands fa-react"></i>
                     <p>React</p>
                 </div>
             </section>

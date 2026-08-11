@@ -1,0 +1,35 @@
+.interet {
+    height: 100%;
+    width: 100%;
+}
+
+.interet h2{
+    color: black;
+    display: flex;
+    justify-content: start;
+    padding-left: 15px;
+}
+
+.interets {
+    height: 90%;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.interets div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+    font-size: 2.5vw;
+}
+.interets i {
+    height: 2vw;
+    width: 2vw;
+    padding: 1vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

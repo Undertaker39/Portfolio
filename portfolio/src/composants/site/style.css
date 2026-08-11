@@ -1,0 +1,23 @@
+.site {
+    height: 100%;
+    width: 100%;
+}
+
+.site h2{
+    color: black;
+    display: flex;
+    justify-content: end;
+    padding-right: 15px;
+}
+
+.sites {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    top: -10px;
+    z-index: -1;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}

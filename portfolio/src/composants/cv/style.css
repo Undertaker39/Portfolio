@@ -1,0 +1,18 @@
+.cv {
+    width: 50%;
+}
+
+.cv section {
+    width: auto;
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.cv section p {
+    font-size: 2vw;
+    margin: 2px;
+}

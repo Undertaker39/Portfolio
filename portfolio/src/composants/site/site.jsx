@@ -1,9 +1,13 @@
+import sites from '../../assets/sites.json'
 import './style.css'
 
 function Site() {
     return(
-        <div>
-            <p>site</p>
+        <div className='site'>
+            <h2>Mes projets</h2>
+            <section className='sites'>
+
+            </section>
         </div>
     )
 }

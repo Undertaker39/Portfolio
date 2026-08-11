@@ -1,4 +1,5 @@
 import './App.css'
+import Contact from './composants/contact/contact'
 import Cv from './composants/cv/cv'
 import Interet from './composants/interet/interet'
 import Profile from './composants/profile/profile'
@@ -7,7 +8,7 @@ import Site from './composants/site/site'
 function App() {
 
   return (
-    <div class="articles">
+    <div className="articles">
       <article>
         <Profile/>
       </article>
@@ -17,8 +18,9 @@ function App() {
       <article>
         <Interet/>
       </article>
-      <article>
+      <article className='about'>
         <Cv/>
+        <Contact/>
       </article>
     </div>
   )
