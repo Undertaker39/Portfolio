@@ -7,7 +7,7 @@ function Interet() {
             <section className='interets'>
                 <div>
                     <i className="fa-solid fa-microchip"></i>
-                    <p>L'informatique<br/>(soft/hard ware)</p>
+                    <p>L'informatique (soft/hard ware)</p>
                 </div>
                 <div>
                     <i className="fa-solid fa-gamepad"></i>
@@ -15,7 +15,7 @@ function Interet() {
                 </div>
                 <div>
                     <i className="fa-solid fa-plane"></i>
-                    <p>L'aéronautique<br/>(détenteur du BIA)</p>
+                    <p>L'aéronautique (détenteur du BIA)</p>
                 </div>
                 <div>
                     <i className="fa-solid fa-satellite"></i>
@@ -27,7 +27,7 @@ function Interet() {
                 </div>
                 <div>
                     <i className="fa-solid fa-music"></i>
-                    <p>La musique<br/>(pratique piano et guitare)</p>
+                    <p>La musique (pratique piano et guitare)</p>
                 </div>
             </section>
         </div>

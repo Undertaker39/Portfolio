@@ -1,8 +1,5 @@
 body {
-  background-image: url("./assets/projet_pier.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
+  padding:5px 15px;
 }
 
 #root {
@@ -13,11 +10,9 @@ body {
   font-size: 1vw;
   color: black;
   text-decoration: none;
-  font-family: Roboto serif;
+  font-family: "EB Garamond", serif;
 }
 
-@media (max-width: 768.98px){
-  body {
-    background-image: none;
-  }
+h1,h2,h3,h4,h5,h6 {
+  font-family: "Black Ops One", system-ui;
 }
