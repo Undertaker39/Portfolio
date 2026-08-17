@@ -1,18 +1,35 @@
 body {
-  padding:5px 15px;
-}
-
-#root {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  font-size: 1vw;
-  color: black;
-  text-decoration: none;
+  background-image: url("./assets/fond_desktop.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  font-size: 1.5vw;
   font-family: "EB Garamond", serif;
 }
 
-h1,h2,h3,h4,h5,h6 {
+h1, h2, h3, h4, h5, h6 {
   font-family: "Black Ops One", system-ui;
+}
+
+h1 {
+  font-size: 5vw;
+}
+
+h2 {
+  font-size: 2.5vw;
+  text-decoration: underline black 2px;
+}
+
+h3 {
+  font-size: 3vw;
+}
+
+h4 {
+  font-size: 2vw;
+}
+
+@media (max-width: 768.98px){
+  body {
+    background-image: url("./assets/fond_mobile.png");
+  }
 }

@@ -5,4 +5,5 @@ footer {
 footer p {
     display: flex;
     justify-content: center;
+    padding: 2px;
 }

@@ -8,21 +8,15 @@ import Site from './composants/site/site'
 function App() {
 
   return (
-    <div className="articles">
-      <article>
-        <Profile/>
-      </article>
-      <article>
-        <Site/>
-      </article>
-      <article>
-        <Interet/>
-      </article>
-      <article className='about'>
+    <main>
+      <Profile/>
+      <Site/>
+      <Interet/>
+      <section className='about'>
         <Cv/>
         <Contact/>
-      </article>
-    </div>
+      </section>
+    </main>
   )
 }
 

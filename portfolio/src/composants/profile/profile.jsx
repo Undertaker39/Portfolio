@@ -3,11 +3,11 @@ import profilepicture from '../../assets/profile.png'
 
 function Profile() {
     return(
-        <div className='profile'>
-            <section className='profilepicture'>
-                <img src={profilepicture}/>
-            </section>
-            <section className='competences'>
+        <section id='profile'>
+            <article className='profilepicture'>
+                <img className='picture' src={profilepicture}/>
+            </article>
+            <article className='competences'>
                 <div className='code'>
                     <i className="fa-solid fa-laptop-code"></i>
                     <p>Developpeur front-end</p>
@@ -28,8 +28,8 @@ function Profile() {
                     <i className="fa-brands fa-react"></i>
                     <p>React</p>
                 </div>
-            </section>
-        </div>
+            </article>
+        </section>
     )
 }
 

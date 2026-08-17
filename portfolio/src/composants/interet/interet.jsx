@@ -2,9 +2,9 @@ import './style.css'
 
 function Interet() {
     return(
-        <div className='interet'>
-            <h2>Interets/passions</h2>
-            <section className='interets'>
+        <section id='interet'>
+            <h2>Mes centres d'intérêts</h2>
+            <article className='interets'>
                 <div>
                     <i className="fa-solid fa-microchip"></i>
                     <p>L'informatique (soft/hard ware)</p>
@@ -29,8 +29,8 @@ function Interet() {
                     <i className="fa-solid fa-music"></i>
                     <p>La musique (pratique piano et guitare)</p>
                 </div>
-            </section>
-        </div>
+            </article>
+        </section>
     )
 }
 

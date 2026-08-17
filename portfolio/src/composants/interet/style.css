@@ -1,17 +1,9 @@
-.interet {
-    height: 100%;
-    width: 100%;
-}
-
-.interet h2{
-    color: black;
+#interet {
     display: flex;
-    justify-content: start;
+    flex-direction: column;
 }
 
 .interets {
-    height: 80%;
-    width: 90%;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -26,6 +18,7 @@
     height: 32%;
     width: 50%;
 }
+
 .interets i {
     height: 2vw;
     width: 2vw;
@@ -33,4 +26,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+@media (max-width: 768.98px){
+  .interets {
+    flex-direction: row;
+    padding: 15px;
+  }
 }

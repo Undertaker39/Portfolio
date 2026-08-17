@@ -1,19 +1,22 @@
-.profile {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-}
-
-section {
+#profile article {
     width: 50%;
+    display: flex;
+    justify-content: center;
 }
 
 .profilepicture {
-    display: flex;
-    justify-content: center;
-    height: 100%;
+    align-items: center;
+}
+
+.contour{
+    z-index: 1;
+    max-width: 70%;
+    height: fit-content;
+}
+
+.picture{
+    max-width:70%;
+    height: fit-content;
 }
 
 .competences{
@@ -35,4 +38,10 @@ section {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+@media (max-width: 768.98px){
+  .picture {
+    max-width:50%;
+  }
 }

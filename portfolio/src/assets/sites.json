@@ -1,55 +1,67 @@
 [
     {
         "nom": "Riding Cities",
-        "image": "/src/assets/photos_sites/02_Riding_Cities.jpg",
+        "image": "https://raw.githubusercontent.com/Undertaker39/Portfolio/refs/heads/main/portfolio/src/assets/photos_sites/02_Riding_Cities.jpg",
+        "competences": "HTML",
         "github": "https://github.com/Undertaker39/Riding_cities",
         "link": "https://undertaker39.github.io/Riding_cities/"
     },
     {
         "nom": "Booki",
-        "image": "/src/assets/photos_sites/03_Booki.jpg",
+        "image": "https://raw.githubusercontent.com/Undertaker39/Portfolio/refs/heads/main/portfolio/src/assets/photos_sites/03_Booki.jpg",
+        "competences": "CSS",
         "github": "https://github.com/Undertaker39/Booki",
         "link": "https://undertaker39.github.io/Booki/"
     },
     {
         "nom": "Oh My Food",
-        "image": "/src/assets/photos_sites/04_Ohmyfood.jpg",
+        "image": "https://raw.githubusercontent.com/Undertaker39/Portfolio/refs/heads/main/portfolio/src/assets/photos_sites/04_Ohmyfood.jpg",
+        "competences": [
+            "Responsive Design",
+            "SASS"
+            ],
         "github": "https://github.com/Undertaker39/ohmyfood",
         "link": "https://undertaker39.github.io/ohmyfood/"
     },
     {
         "nom": "Print It",
-        "image": "/src/assets/photos_sites/05_Print_it!.jpg",
+        "image": "https://raw.githubusercontent.com/Undertaker39/Portfolio/refs/heads/main/portfolio/src/assets/photos_sites/05_Print_it!.jpg",
+        "competences": "",
         "github": "https://github.com/Undertaker39/Print-it",
         "link": "https://undertaker39.github.io/Print-it/"
     },
     {
         "nom": "Sophie Bluel",
-        "image": "/src/assets/photos_sites/06_Sophie_Bluel.jpg",
+        "image": "https://raw.githubusercontent.com/Undertaker39/Portfolio/refs/heads/main/portfolio/src/assets/photos_sites/06_Sophie_Bluel.jpg",
+        "competences": "",
         "github": "https://github.com/Undertaker39/Sophie_BLUEL",
         "link": "https://undertaker39.github.io/Sophie_BLUEL/"
     },
     {
         "nom": "Kasa",
-        "image": "/src/assets/photos_sites/07_Kasa.jpg",
+        "image": "https://raw.githubusercontent.com/Undertaker39/Portfolio/refs/heads/main/portfolio/src/assets/photos_sites/07_Kasa.jpg",
+        "competences": "",
         "github": "https://github.com/Undertaker39/Kasa",
         "link": "https://kasa-peach-theta.vercel.app/"
     },
     {
         "nom": "Nina Carducci",
-        "image": "/src/assets/photos_sites/08_Nina_Carducci.jpg",
+        "image": "https://raw.githubusercontent.com/Undertaker39/Portfolio/refs/heads/main/portfolio/src/assets/photos_sites/08_Nina_Carducci.jpg",
+        "competences": "",
         "github": "https://github.com/Undertaker39/Ninacarducci",
         "link": "https://undertaker39.github.io/Ninacarducci/"
     },
     {
         "nom": "724 Events",
-        "image": "/src/assets/photos_sites/09_724_events.jpg",
+        "image": "https://raw.githubusercontent.com/Undertaker39/Portfolio/refs/heads/main/portfolio/src/assets/photos_sites/09_724_events.jpg",
+        "competences": "",
         "github": "https://github.com/Undertaker39/724events",
         "link": "https://724events-two.vercel.app/"
     },
     {
         "nom": "Argent Bank",
-        "image": "/src/assets/photos_sites/10_Argent_Bank.jpg",
+        "image": "https://raw.githubusercontent.com/Undertaker39/Portfolio/refs/heads/main/portfolio/src/assets/photos_sites/10_Argent_Bank.jpg",
+        "competences": "",
         "github": "https://github.com/Undertaker39/ArgentBank",
         "link": "https://argent-bank-three-phi.vercel.app/"
     }

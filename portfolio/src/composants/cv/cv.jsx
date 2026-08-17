@@ -2,19 +2,22 @@ import './style.css'
 
 function Cv() {
     return(
-        <div className='cv'>
+        <section id='cv'>
             <h2>Cv</h2>
-            <section>
-                <p><i className="fa-solid fa-circle"></i>BALP Pierre</p>
-                <p><i className="fa-solid fa-circle"></i>31 ans</p>
-                <p><i className="fa-solid fa-circle"></i>Permis A et B</p>
-                <p><i className="fa-solid fa-circle"></i>Véhicules personnels</p>
-                <p><i className="fa-solid fa-circle"></i>"Diplome en developper web front-end"</p>
-                <p><i className="fa-solid fa-circle"></i>9 ans en industrie agroalimentaire</p>
-                <p><i className="fa-solid fa-circle"></i>Maitrise de l'anglais</p>
+            <article>
+                <ul>
+                    <li>BALP Pierre</li>
+                    <li>31 ans</li>
+                    <li>Permis A et B</li>
+                    <li>Véhicules personnels</li>
+                    <li>"Diplome en developpement web front-end"</li>
+                    <li>9 ans en industrie agroalimentaire</li>
+                    <li>Maitrise de l'anglais</li>
+
+                </ul>
                 <a href="">lien vers CV</a>
-            </section>
-        </div>
+            </article>
+        </section>
     )
 }
 
