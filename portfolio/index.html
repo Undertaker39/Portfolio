@@ -1,15 +1,71 @@
 <!doctype html>
 <html lang="fr">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" type="image/svg+xml" href="./src/assets/logo.svg" />
-    <link rel="stylesheet" type="text/css" href="./src/reset.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer">
-    <title>Portfolio Pierre BALP</title>
+    <!--meta-->
+      <meta charset="UTF-8"/>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      <title>Portfolio Pierre BALP</title>
+      <meta name="description" content="Pierre BALP, jeune développeur web en front-end">
+      <meta name="author" content="Pierre BALP">
+      <meta name="robots" content="index, follow">
+      <meta name="keywords" content="développeur, web, front-end, html, css, js, react">
+
+    <!--style-->
+      <link rel="icon" type="image/svg+xml" href="./src/assets/logo.svg"/>
+      <link rel="stylesheet" type="text/css" href="./src/reset.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer">
+
+    <!--schema local buisness-->
+      <script type="application/ld+json">
+        {
+          "@context": "http://schema.org/",
+          "@type": "LocalBusiness",
+          "name": "BALP Pierre Developpeur Web",
+          "image": "https://raw.githubusercontent.com/Undertaker39/Portfolio/refs/heads/main/portfolio/src/assets/profile.png",
+          "telephone": "+33687841817",
+          "url": "https://portfolio-pierre-balp.vercel.app/",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "",
+            "addressLocality": "Lons-le-Saunier",
+            "addressRegion": "Jura",
+            "postalCode": "39000",
+            "addressCountry": "France"
+          },
+          "openingHoursSpecification": [
+            {
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+              "opens": "08:00",
+              "closes": "17:00"
+            }
+          ]
+        }
+      </script>
+
+    <!--opengraph buisness-->
+      <meta property="og:type" content="business.business">
+      <meta property="og:title" content="BALP Pierre Développeur web">
+      <meta property="og:url" content="https://portfolio-pierre-balp.vercel.app/">
+      <meta property="og:image" content="https://raw.githubusercontent.com/Undertaker39/Portfolio/refs/heads/main/portfolio/src/assets/profile.png">
+      <meta property="og:description" content="Pierre BALP, jeune développeur web en front-end">
+      <meta property="business:contact_data:street_address" content="">
+      <meta property="business:contact_data:locality" content="Lons-le-Saunier">
+      <meta property="business:contact_data:region" content="Jura">
+      <meta property="business:contact_data:postal_code" content="39000">
+      <meta property="business:contact_data:country_name" content="France">
+
+    <!--twitter-->
+      <meta name="twitter:card" content="summary">
+      <meta name="twitter:title" content="BALP Pierre Développeur web">
+      <meta name="twitter:site" content="@https://portfolio-pierre-balp.vercel.app/">
+      <meta name="twitter:description" content="Pierre BALP, jeune développeur web en front-end">
+      <meta name="twitter:image" content="https://raw.githubusercontent.com/Undertaker39/Portfolio/refs/heads/main/portfolio/src/assets/profile.png">
+      <meta name="twitter:image:alt" content="Photo de Pierre BALP">
+
   </head>
   <body>
     <div id="root"></div>

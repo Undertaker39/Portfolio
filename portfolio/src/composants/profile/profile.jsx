@@ -5,7 +5,7 @@ function Profile() {
     return(
         <section id='profile'>
             <article className='profilepicture'>
-                <img className='picture' src={profilepicture}/>
+                <img className='picture' src={profilepicture} alt='Photo de Pierre BALP'/>
             </article>
             <article className='competences'>
                 <div className='code'>

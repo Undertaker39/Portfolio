@@ -1,67 +1,82 @@
 [
     {
         "nom": "Riding Cities",
-        "image": "https://raw.githubusercontent.com/Undertaker39/Portfolio/refs/heads/main/portfolio/src/assets/photos_sites/02_Riding_Cities.jpg",
-        "competences": "HTML",
+        "image": "https://raw.githubusercontent.com/Undertaker39/Portfolio/refs/heads/main/portfolio/src/assets/02_Riding_Cities.jpg",
+        "alt": "Image du site : Riding cities",
+        "contexte": "J’ai actualiser la page Internet de Riding Cities en créant une nouvelle section, “Les membres fondateurs”, avec les noms et photos des créateurs de l’association et en modifiant la section comprenant le bouton “Télécharger le planning de cours” pour ajouter un titre et deux boutons permettant de télécharger deux plannings de cours différents (un pour les enfants et un pour les adultes).",
+        "competences": "Intégrer des éléments HTML",
         "github": "https://github.com/Undertaker39/Riding_cities",
         "link": "https://undertaker39.github.io/Riding_cities/"
     },
     {
         "nom": "Booki",
-        "image": "https://raw.githubusercontent.com/Undertaker39/Portfolio/refs/heads/main/portfolio/src/assets/photos_sites/03_Booki.jpg",
-        "competences": "CSS",
+        "image": "https://raw.githubusercontent.com/Undertaker39/Portfolio/refs/heads/main/portfolio/src/assets/03_Booki.jpg",
+        "alt": "Image du site : Booki",
+        "contexte": "J’ai été chargé d'intégrer l'interface du site avec du code HTML et CSS. Pour m’aider, je possédais la structure de fichiers du site ainsi qu’une base de code : un fichier “index.html” contenant une première base du code HTML que tu devras compléter ; un dossier “css” contenant un ou plusieurs fichiers “style.css” avec une première ébauche du code CSS et que tu devras compléter également ;un dossier “images” contenant l’ensemble des images utilisées sur le site.",
+        "competences": "Intégrer du contenu CSS ",
         "github": "https://github.com/Undertaker39/Booki",
         "link": "https://undertaker39.github.io/Booki/"
     },
     {
         "nom": "Oh My Food",
-        "image": "https://raw.githubusercontent.com/Undertaker39/Portfolio/refs/heads/main/portfolio/src/assets/photos_sites/04_Ohmyfood.jpg",
-        "competences": [
-            "Responsive Design",
-            "SASS"
-            ],
+        "image": "https://raw.githubusercontent.com/Undertaker39/Portfolio/refs/heads/main/portfolio/src/assets/04_Ohmyfood.jpg",
+        "alt": "Image du site : Oh my food",
+        "contexte": "L’UX designer a finalisé les maquettes mobile et desktop du site, le site doit être responsive et en “mobile first” tout en se servant du SASS et en intégrant soigneusement les animations CSS.",
+        "competences": "Intégrer une maquette en mobile-first, Développer une interface web avec Sass, Mettre en œuvre des animations CSS",
         "github": "https://github.com/Undertaker39/ohmyfood",
         "link": "https://undertaker39.github.io/ohmyfood/"
     },
     {
         "nom": "Print It",
-        "image": "https://raw.githubusercontent.com/Undertaker39/Portfolio/refs/heads/main/portfolio/src/assets/photos_sites/05_Print_it!.jpg",
-        "competences": "",
+        "image": "https://raw.githubusercontent.com/Undertaker39/Portfolio/refs/heads/main/portfolio/src/assets/05_Print_it!.jpg",
+        "alt": "Image du site : Print it",
+        "contexte": "J’ai été en charge de dynamiser un site Internet statique en mettant en place un carrousel.",
+        "competences": "Programmer avec les fondamentaux de JavaScript, Gérer les événements / manipuler le DOM ",
         "github": "https://github.com/Undertaker39/Print-it",
         "link": "https://undertaker39.github.io/Print-it/"
     },
     {
         "nom": "Sophie Bluel",
-        "image": "https://raw.githubusercontent.com/Undertaker39/Portfolio/refs/heads/main/portfolio/src/assets/photos_sites/06_Sophie_Bluel.jpg",
-        "competences": "",
+        "image": "https://raw.githubusercontent.com/Undertaker39/Portfolio/refs/heads/main/portfolio/src/assets/06_Sophie_Bluel.jpg",
+        "alt": "Image du site : Sophie Bluel",
+        "contexte": "Je devais développer la page de présentation des travaux de l'architecte (à partir du HTML fourni) ; toute la page de connexion de l'administrateur du site et la modale permettant d'uploader de nouveaux médias. Le code back-end nous a permis de faire persister les données et de tester les fonctionnalités.",
+        "competences": "Récupérer les données utilisateurs via des formulaires, Afficher les données du back end via des appels API ",
         "github": "https://github.com/Undertaker39/Sophie_BLUEL",
         "link": "https://undertaker39.github.io/Sophie_BLUEL/"
     },
     {
         "nom": "Kasa",
-        "image": "https://raw.githubusercontent.com/Undertaker39/Portfolio/refs/heads/main/portfolio/src/assets/photos_sites/07_Kasa.jpg",
-        "competences": "",
+        "image": "https://raw.githubusercontent.com/Undertaker39/Portfolio/refs/heads/main/portfolio/src/assets/07_Kasa.jpg",
+        "alt": "Image du site : Kasa",
+        "contexte": "Je devais développer l’ensemble de l’application React, les composants, les routes avec React Router, en suivant les maquettes Figma avec le responsive en SASS.",
+        "competences": "Développer avec React, Configurer la navigation avec React Router",
         "github": "https://github.com/Undertaker39/Kasa",
         "link": "https://kasa-peach-theta.vercel.app/"
     },
     {
         "nom": "Nina Carducci",
-        "image": "https://raw.githubusercontent.com/Undertaker39/Portfolio/refs/heads/main/portfolio/src/assets/photos_sites/08_Nina_Carducci.jpg",
-        "competences": "",
+        "image": "https://raw.githubusercontent.com/Undertaker39/Portfolio/refs/heads/main/portfolio/src/assets/08_Nina_Carducci.jpg",
+        "alt": "Image du site : Nina Carducci",
+        "contexte": "Je devais faire une optimisation globale du site tant sur les performances que sur le SEO, mettre en place le référencement local en utilisant Schema.org, ajouter les metas pour les réseaux sociaux, faire les modifications liées à l’accessibilité du site et produire un rapport d’optimisation présentant toutes vos actions et leur impact.",
+        "competences": "Concevoir un contenu web accessible, Optimiser le référencement naturel ,Optimiser la performance d'un site web",
         "github": "https://github.com/Undertaker39/Ninacarducci",
         "link": "https://undertaker39.github.io/Ninacarducci/"
     },
     {
         "nom": "724 Events",
-        "image": "https://raw.githubusercontent.com/Undertaker39/Portfolio/refs/heads/main/portfolio/src/assets/photos_sites/09_724_events.jpg",
-        "competences": "",
+        "image": "https://raw.githubusercontent.com/Undertaker39/Portfolio/refs/heads/main/portfolio/src/assets/09_724_events.jpg",
+        "alt": "Image du site : 724 events",
+        "contexte": "Le site était fonctionnel, mais quelques bugs étaient présents. Je devais les identifier et les corriger.",
+        "competences": "Débugger un site web grâce aux Chrome DevTools, Effectuer des tests fonctionnels, Rédiger un cahier de recette pour tester un site",
         "github": "https://github.com/Undertaker39/724events",
         "link": "https://724events-two.vercel.app/"
     },
     {
         "nom": "Argent Bank",
-        "image": "https://raw.githubusercontent.com/Undertaker39/Portfolio/refs/heads/main/portfolio/src/assets/photos_sites/10_Argent_Bank.jpg",
-        "competences": "",
+        "image": "https://raw.githubusercontent.com/Undertaker39/Portfolio/refs/heads/main/portfolio/src/assets/10_Argent_Bank.jpg",
+        "alt": "Image du site : Argent Bank",
+        "contexte": "Je devais créer l’application web complète et responsive avec React tout en utilisant Redux pour gérer le state de l'ensemble de l'application. Je possédais le code Front-end pour la page d'accueil, la page de connexion et la page de profil ainsi que le code Back-end ainsi que les mock-ups qui montraient la fonctionnalité des routes API implémentées. L’application devait permettre à l'utilisateur de visiter la page d'accueil, de se connecter au système, de se déconnecter du système, peut voir ses informations qu’après s'être connecté avec succès et pourra modifier son pseudo mais pas son nom ni son prénom.",
+        "competences": "Gérer l’état avec Redux, Configurer les routes API",
         "github": "https://github.com/Undertaker39/ArgentBank",
         "link": "https://argent-bank-three-phi.vercel.app/"
     }
