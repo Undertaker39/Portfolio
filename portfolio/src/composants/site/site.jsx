@@ -21,13 +21,13 @@ function Site() {
                     <h2>Mes projets</h2>
                     <h3>{sites[position].nom}</h3>
                     <div className='carrousel'>
-                        <button onClick={()=>{position === 0 ? setPosition(position=sites.length-1) : setPosition(position-1)}}>
+                        <button onClick={()=>{position === 0 ? setPosition(position=sites.length-1) : setPosition(position-1)}} aria-label="Site pécedent">
                             <i className="fa-solid fa-circle-arrow-left"></i>
                         </button>
                         <div className='image'>
-                            <img src={sites[position].image} alt={sites[position].alt} onClick={toggleModale} tabIndex={0} onKeyDown={keydown} fetchPriority='low'/>
+                            <img src={sites[position].image} alt={sites[position].alt} onClick={toggleModale} tabIndex={0} onKeyDown={keydown} fetchPriority='high' aria-label='Photo du site, cliquez dessus pour accéder à plus de détails'/>
                         </div>
-                        <button onClick={()=>{position === sites.length-1 ? setPosition(position=0) : setPosition(position+1)}}>
+                        <button onClick={()=>{position === sites.length-1 ? setPosition(position=0) : setPosition(position+1)}} aria-label="Site suivant">
                             <i className="fa-solid fa-circle-arrow-right"></i>
                         </button>
                     </div>
@@ -69,13 +69,13 @@ function Site() {
                     <h2>Mes projets</h2>
                     <h3>{sites[position].nom}</h3>
                     <div className='carrousel'>
-                        <button onClick={()=>{position === 0 ? setPosition(position=sites.length-1) : setPosition(position-1)}}>
+                        <button onClick={()=>{position === 0 ? setPosition(position=sites.length-1) : setPosition(position-1)}} aria-label="Site pécedent">
                             <i className="fa-solid fa-circle-arrow-left"></i>
                         </button>
                         <div className='image'>
                             <img src={sites[position].image} alt={sites[position].alt} onClick={toggleModale}/>
                         </div>
-                        <button onClick={()=>{position === sites.length-1 ? setPosition(position=0) : setPosition(position+1)}}>
+                        <button onClick={()=>{position === sites.length-1 ? setPosition(position=0) : setPosition(position+1)}} aria-label="Site suivant">
                             <i className="fa-solid fa-circle-arrow-right"></i>
                         </button>
                     </div>

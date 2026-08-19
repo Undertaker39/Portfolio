@@ -1,6 +1,6 @@
 import './style.css'
 import profilepicture from '../../assets/profile.webp'
-import fondpicture from '../../assets/fond_profile.png'
+import fondpicture from '../../assets/fond_profile.webp'
 
 function Profile() {
     return(

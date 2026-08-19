@@ -28,9 +28,6 @@
 }
 
 @media (max-width: 768.98px) {
-    #cv {
-        flex-wrap: balance;
-    }
 
     #cv a {
         padding: 0;

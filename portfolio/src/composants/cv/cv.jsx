@@ -15,7 +15,7 @@ function Cv() {
                     <li>9 ans en industrie agroalimentaire</li>
                     <li>Maitrise de l'anglais</li>
                 </ul>
-                <a href={cv} target='_blank'>Voir mon CV</a>
+                <a href={cv} target='_blank' aria-label='Ce lien ouvre mon CV en format PDF dans un nouvel onglet'>Voir mon CV</a>
             </article>
         </section>
     )
