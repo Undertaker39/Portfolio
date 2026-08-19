@@ -8,6 +8,11 @@ function Site() {
     const toggleModale = () => {
         setModale(!modale);
     }
+    const keydown = (e) => {
+        if (e.which === 13 || e.which === 32) {
+            toggleModale()
+        }
+    }
 
     if (modale === false) {
         return(
@@ -20,7 +25,7 @@ function Site() {
                             <i className="fa-solid fa-circle-arrow-left"></i>
                         </button>
                         <div className='image'>
-                            <img src={sites[position].image} alt={sites[position].alt} onClick={toggleModale} tabIndex={0}/>
+                            <img src={sites[position].image} alt={sites[position].alt} onClick={toggleModale} tabIndex={0} onKeyDown={keydown} fetchPriority='low'/>
                         </div>
                         <button onClick={()=>{position === sites.length-1 ? setPosition(position=0) : setPosition(position+1)}}>
                             <i className="fa-solid fa-circle-arrow-right"></i>
@@ -43,11 +48,11 @@ function Site() {
                             <div className='contenu'>
                                 <img src={sites[position].image}/>
                                 <div className='info'>
-                                    <div>
+                                    <div className='contexte'>
                                         <h4>Contexte</h4>
                                         <p>{sites[position].contexte}</p>
                                     </div>
-                                    <div>
+                                    <div className='competence'>
                                         <h4>Compétences apprises</h4>
                                         <p>{sites[position].competences}</p>
                                     </div>

@@ -1,4 +1,5 @@
 import './style.css'
+import cv from '../../assets/CV.pdf'
 
 function Cv() {
     return(
@@ -14,7 +15,7 @@ function Cv() {
                     <li>9 ans en industrie agroalimentaire</li>
                     <li>Maitrise de l'anglais</li>
                 </ul>
-                <a href="">lien vers CV</a>
+                <a href={cv} target='_blank'>Voir mon CV</a>
             </article>
         </section>
     )

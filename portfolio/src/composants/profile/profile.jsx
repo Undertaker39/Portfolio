@@ -1,11 +1,13 @@
 import './style.css'
-import profilepicture from '../../assets/profile.png'
+import profilepicture from '../../assets/profile.webp'
+import fondpicture from '../../assets/fond_profile.png'
 
 function Profile() {
     return(
         <section id='profile'>
             <article className='profilepicture'>
-                <img className='picture' src={profilepicture} alt='Photo de Pierre BALP'/>
+                <img className='fond' src={fondpicture} fetchPriority='low' alt='Contour de la photo de profile'></img>
+                <img className='picture' src={profilepicture} alt='Photo de Pierre BALP' fetchPriority='high'/>
             </article>
             <article className='competences'>
                 <div className='code'>

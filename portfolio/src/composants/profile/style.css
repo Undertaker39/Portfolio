@@ -6,17 +6,18 @@
 
 .profilepicture {
     align-items: center;
+    position: relative;
 }
 
-.contour{
+.fond {
+    position: absolute;
     z-index: 1;
-    max-width: 70%;
-    height: fit-content;
+    max-width: 100%;
 }
 
 .picture{
+    position: absolute;
     max-width:70%;
-    height: fit-content;
 }
 
 .competences{
@@ -41,7 +42,11 @@
 }
 
 @media (max-width: 768.98px){
-  .picture {
-    max-width:50%;
-  }
+    .fond{
+        max-width: 70%;
+    }
+
+    .picture {
+        max-width:50%;
+    }
 }
