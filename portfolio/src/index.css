@@ -1,5 +1,5 @@
 body {
-  background-image: url("./assets/fond_desktop.jpg");
+  background-image: url("./assets/fond_1.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -16,6 +16,7 @@ h1 {
 }
 
 h2 {
+  text-align: center;
   font-size: 4vw;
   text-decoration: underline black 2px;
 }
@@ -27,10 +28,4 @@ h3 {
 
 h4 {
   font-size: 2vw;
-}
-
-@media (max-width: 768.98px){
-  body {
-    background-image: url("./assets/fond_mobile.png");
-  }
 }

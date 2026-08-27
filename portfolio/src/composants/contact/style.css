@@ -1,7 +1,6 @@
 #contact {
     display: flex;
     flex-direction: column;
-    justify-content: center;
 }
 
 #contact h2 {
