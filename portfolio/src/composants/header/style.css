@@ -11,10 +11,13 @@ h1 {
     font-weight: 500;
 }
 
-a {
+header nav {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header a {
     padding: 0 10px;
-    text-decoration: none;
-    color: black;
 }
 
 a:hover, a:active {

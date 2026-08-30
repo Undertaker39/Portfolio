@@ -1,0 +1,8 @@
+#compétences {
+    flex-direction: column;
+    padding: 15px;
+}
+
+#compétences ul {
+    padding: 10px;
+}

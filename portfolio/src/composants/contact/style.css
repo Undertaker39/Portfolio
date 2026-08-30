@@ -1,6 +1,7 @@
 #contact {
     display: flex;
     flex-direction: column;
+    width: 50%;
 }
 
 #contact h2 {
@@ -18,7 +19,6 @@
 
 #contact p {
     padding-left: 10px;
-    font-size: 2vw;
 }
 
 #contact ul {
@@ -27,4 +27,10 @@
 
 #contact i {
     padding: 0.5vw;
+}
+
+@media (max-width: 768.98px){
+    #contact{
+        width: auto;
+    }
 }

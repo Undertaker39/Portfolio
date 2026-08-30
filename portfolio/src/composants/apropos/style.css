@@ -1,0 +1,15 @@
+#apropos {
+    flex-direction: column;
+    padding: 15px;
+    width: 50%;
+}
+
+#apropos p {
+    padding: 10px;
+}
+
+@media (max-width: 768.98px){
+    #apropos {
+        width: auto;
+    }
+}

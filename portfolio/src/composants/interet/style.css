@@ -1,6 +1,8 @@
 #interet {
     display: flex;
     flex-direction: column;
+    padding: 15px;
+    width: 50%;
 }
 
 .interets {
@@ -14,23 +16,23 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    font-size: 1.5vw;
-    height: 32%;
-    width: 50%;
 }
 
 .interets i {
-    height: 2vw;
-    width: 2vw;
-    padding: 1vw;
+    padding: 5px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 @media (max-width: 768.98px){
-  .interets {
-    flex-direction: row;
-    padding: 15px;
-  }
+    #interet {
+        width: auto;
+    }
+
+    .interets {
+        flex-direction: row;
+        padding: 15px;
+        width: auto;
+    }
 }
